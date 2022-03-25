@@ -1,0 +1,13 @@
+{
+    "devDependencies": {
+        "cosmiconfig": "^7.0.1",
+        "cypress": "^9.5.2",
+        "cypress-cucumber-preprocessor": "^4.3.1"
+    },
+    "scripts": {
+        "test": "cypress open"
+    },
+    "cypress-cucumber-preprocessor": {
+        "nonGlobalStepDefinitions": true
+    }
+}
